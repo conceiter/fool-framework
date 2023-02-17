@@ -9,12 +9,10 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
-
-    <artifactId>base</artifactId>
+    <artifactId>web-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>base</name>
-    <description>base</description>
+    <name>web-base</name>
+    <description>web-base</description>
 
     <properties>
         <java.version>11</java.version>
@@ -34,7 +32,7 @@
 
         <dependency>
             <groupId>org.wgk.foolframework</groupId>
-            <artifactId>tools</artifactId>
+            <artifactId>base-tool</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
