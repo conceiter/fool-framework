@@ -14,8 +14,9 @@
     </properties>
 
     <modules>
-        <module>base</module>
-        <module>tools</module>
+        <module>web-base</module>
+        <module>base-tool</module>
+        <module>database-tool</module>
     </modules>
 
     <dependencyManagement>
